@@ -25,11 +25,10 @@ const CreateBooks = () => {
       .then(() => {
         setLoading(false);
         enqueueSnackbar("Book Created successfully", { variant: "success" });
-        navigate("/");
+        navigate("/home");
       })
       .catch((error) => {
         setLoading(false);
-        // alert('An error happened. Please Chack console');
         enqueueSnackbar("Error", { variant: "error" });
         console.log(error);
       });

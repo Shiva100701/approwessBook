@@ -11,7 +11,9 @@ copy this ----> MONGODB_URI='mongodb+srv://shivamrmishra:approwess@aprowess.ctg8
 
 once done then please go in terminal copy ---->  cd .\api\  
 after cd .\api\ ----> npm init -y
-if any error occurred while npm init -y or if error contains any of the following names such as express, cors, dotenv, please run -----> npm i cors express dotenv <-----
+
+after npm init -y, please run -----> npm i cors express dotenv nodemon mongoose <-----
+
 after performing  npm i cors express dotenv please run -----> npm run dev
 
 
